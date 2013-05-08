@@ -8,6 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    UILabel *currentWeather;
+    UILabel *latitute;
+    UILabel *longitude;
+}
+
+@property (nonatomic, retain) IBOutlet UILabel *currentWeather;
+@property (nonatomic, retain) IBOutlet UILabel *latitute;
+@property (nonatomic, retain) IBOutlet UILabel *longitude;
+
+- (IBAction)getCurrentWeather:(id)sender;
+- (IBAction)getcurrentLocation:(id)sender;
 
 @end

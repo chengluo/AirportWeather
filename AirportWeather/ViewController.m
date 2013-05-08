@@ -7,12 +7,15 @@
 //
 
 #import "ViewController.h"
+#import <CoreLocation/CoreLocation.h>
 
-@interface ViewController ()
-
-@end
 
 @implementation ViewController
+
+@synthesize currentWeather;
+@synthesize latitute;
+@synthesize longitude;
+
 
 - (void)viewDidLoad
 {
@@ -24,6 +27,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)getcurrentLocation:(id)sender {
+    CLLocationManager *locationManager = [[CLLocationManager alloc]init];
+   //  locationManager.delegate = self;
 }
 
 @end

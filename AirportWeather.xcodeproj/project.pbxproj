@@ -23,6 +23,7 @@
 		AC7E9512173446B000EBD76A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7E94ED173446AF00EBD76A /* Foundation.framework */; };
 		AC7E951A173446B000EBD76A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC7E9518173446B000EBD76A /* InfoPlist.strings */; };
 		AC7E951D173446B000EBD76A /* AirportWeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7E951C173446B000EBD76A /* AirportWeatherTests.m */; };
+		AC7E952717395F6B00EBD76A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7E952617395F6B00EBD76A /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		AC7E9519173446B000EBD76A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AC7E951B173446B000EBD76A /* AirportWeatherTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AirportWeatherTests.h; sourceTree = "<group>"; };
 		AC7E951C173446B000EBD76A /* AirportWeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirportWeatherTests.m; sourceTree = "<group>"; };
+		AC7E952617395F6B00EBD76A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC7E952717395F6B00EBD76A /* CoreLocation.framework in Frameworks */,
 				AC7E94EC173446AF00EBD76A /* UIKit.framework in Frameworks */,
 				AC7E94EE173446AF00EBD76A /* Foundation.framework in Frameworks */,
 				AC7E94F0173446AF00EBD76A /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +90,7 @@
 		AC7E94DF173446AF00EBD76A = {
 			isa = PBXGroup;
 			children = (
+				AC7E952617395F6B00EBD76A /* CoreLocation.framework */,
 				AC7E94F1173446AF00EBD76A /* AirportWeather */,
 				AC7E9515173446B000EBD76A /* AirportWeatherTests */,
 				AC7E94EA173446AF00EBD76A /* Frameworks */,
